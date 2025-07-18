@@ -1,11 +1,6 @@
-def hitung_massa(mol, massa_molar):
-    massa = mol * massa_molar
-    return massa
-
-# Contoh penggunaan:
-mol = 2  # mol
-massa_molar = 18  # g/mol (contoh: H2O)
-
-massa = hitung_massa(mol, massa_molar)
-print(f"Massa: {massa} gram")
-
+git init
+git add .
+git commit -m "upload streamlit app"
+git branch -M main
+git remote add origin https://github.com/username/nama-repo.git
+git push -u origin main
