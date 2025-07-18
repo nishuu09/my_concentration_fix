@@ -1,15 +1,12 @@
 import streamlit as st
 
-col1, col2, col3 = st.columns(3)
+st.sidebar.title("🔍 Navigasi")
+menu = st.sidebar.radio("Pilih halaman:", ["Beranda", "Konversi", "Tentang"])
 
-with col1:
-    st.write("Input Kiri")
-    st.number_input("Mol", key="mol")
+if menu == "Beranda":
+    st.write("Ini adalah halaman utama.")
+elif menu == "Konversi":
+    st.write("Silakan konversi data kimia.")
+elif menu == "Tentang":
+    st.write("Aplikasi ini dibuat untuk praktikum kimia.")
 
-with col2:
-    st.write("Input Kanan")
-    st.number_input("Gram", key="gram")
-
-with col3:
-    st.write("Input Paling Kanan")
-    st.number_input("Kg", key="kg")
