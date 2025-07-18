@@ -2,26 +2,14 @@ import streamlit as st
 
 st.sidebar.title("🔍 Navigasi")
 menu = st.sidebar.radio("Pilih halaman:", ["Beranda", "Konversi", "Tentang"])
-
-#==========================================================================================
+#===
 if menu == "Beranda":
-    st.set_page_config(page_title="Halaman Konversi Kimia", layout="centered")
-st.title("⚗️ Konversi Kimia")
-
-st.markdown("Gunakan alat ini untuk melakukan konversi antar satuan kimia umum seperti mol, gram, partikel, dan volume gas pada kondisi STP.")
-    
-    
-
-
-
-
-#==========================================================================================   
-elif menu == "Konversi":
-    import streamlit as st
-
-st.set_page_config(page_title="Konversi Konsentrasi Kimia", layout="centered")
+    st.set_page_config(page_title="Konversi Konsentrasi Kimia", layout="centered")
 st.title("⚗️ Konversi Konsentrasi Kimia")
 
+
+#===
+elif menu == "Konversi":
 menu = st.selectbox("Pilih jenis konversi", [
     "Mol → Molaritas (M)",
     "Molaritas (M) → Mol",
@@ -84,15 +72,10 @@ elif menu == "% Massa → Mol":
 
 
 
-
-
-#==========================================================================================
-elif menu == "Tentang":
-    st.set_page_config(page_title="Halaman Konversi Kimia", layout="centered")
-st.title("⚗️ Konversi Kimia")
-
-st.markdown("Gunakan alat ini untuk melakukan konversi antar satuan kimia umum seperti mol, gram, partikel, dan volume gas pada kondisi STP.")
     
+#===
+elif menu == "Tentang":
+    st.write("Aplikasi ini dibuat untuk praktikum kimia.")
 
 
     
