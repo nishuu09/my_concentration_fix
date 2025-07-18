@@ -4,7 +4,7 @@ st.sidebar.title("🔍 Navigasi")
 menu = st.sidebar.radio("Pilih halaman:", ["Beranda", "Konversi", "Tentang"])
 
 if menu == "Beranda":
-    st.write("Ini adalah halaman utama.")
+    st.write("Oke")
 elif menu == "Konversi":
     st.write("Silakan konversi data kimia.")
 elif menu == "Tentang":
