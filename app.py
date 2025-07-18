@@ -1,4 +1,4 @@
 import streamlit as st
 
-st.divider(bool)
+st.header(divider=False)
 #===========================================================================================
