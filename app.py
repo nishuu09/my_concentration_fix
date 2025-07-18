@@ -6,6 +6,8 @@ menu = st.sidebar.radio("Pilih halaman:", ["Beranda", "Konversi", "Tentang"])
 if menu == "Beranda":
     st.title("MY CALCULATOR")
     st.write("Aplikasi Pengkonversi Konsentrasi Kimia")
+    st.header(body, anchor=None, *, help=None, divider=False, width="stretch")
+    
 elif menu == "Konversi":
     st.write("Silakan konversi data kimia.")
 elif menu == "Tentang":
