@@ -13,7 +13,6 @@ if menu == "Beranda":
 
 #==========================================================================================   
 elif menu == "Konversi":
-import streamlit as st
 
 st.set_page_config(page_title="Konversi Konsentrasi Kimia", layout="centered")
 st.title("⚗️ Konversi Konsentrasi Kimia")
