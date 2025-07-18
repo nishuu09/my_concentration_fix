@@ -13,7 +13,9 @@ if menu == "Beranda":
 
 #==========================================================================================   
 elif menu == "Konversi":
-    st.set_page_config(page_title="Konversi Konsentrasi Kimia", layout="centered")
+import streamlit as st
+
+st.set_page_config(page_title="Konversi Konsentrasi Kimia", layout="centered")
 st.title("⚗️ Konversi Konsentrasi Kimia")
 
 menu = st.selectbox("Pilih jenis konversi", [
@@ -75,6 +77,7 @@ elif menu == "% Massa → Mol":
         massa_zat = persen / 100 * massa_total
         mol = massa_zat / massa_molar
         st.success(f"Jumlah mol: {mol:.4f} mol")
+
 
 #==========================================================================================
 elif menu == "Tentang":
