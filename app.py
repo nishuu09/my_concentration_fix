@@ -108,7 +108,7 @@ elif halaman == "Informasi":
     - GitHub: [github.com/username](https://github.com/username)
     """)
 
-    st.image("https://upload.wikimedia.org/wikipedia/commons/3/38/Periodic_table_large.png", caption="Tabel Periodik Unsur", use_column_width=True)
+    st.image("https://gurubelajarku.com/wp-content/uploads/2019/12/Tabel-Periodik-Unsur-Kimia.jpg", caption="Tabel Periodik Unsur", use_column_width=True)
 
 
     
