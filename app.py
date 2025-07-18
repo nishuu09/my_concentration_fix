@@ -5,6 +5,14 @@ menu = st.sidebar.radio("Pilih halaman:", ["Beranda", "Konversi", "Tentang"])
 
 #==========================================================================================
 if menu == "Beranda":
+    
+    
+
+
+
+
+#==========================================================================================   
+elif menu == "Konversi":
     st.set_page_config(page_title="Konversi Konsentrasi Kimia", layout="centered")
 st.title("⚗️ Konversi Konsentrasi Kimia")
 
@@ -68,12 +76,7 @@ elif menu == "% Massa → Mol":
         mol = massa_zat / massa_molar
         st.success(f"Jumlah mol: {mol:.4f} mol")
 
-
-
-
-#==========================================================================================   
-elif menu == "Konversi":
-    st.write("Silakan konversi data kimia.")
+#==========================================================================================
 elif menu == "Tentang":
     st.write("Aplikasi ini dibuat untuk praktikum kimia.")
 
