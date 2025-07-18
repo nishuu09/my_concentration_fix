@@ -10,14 +10,5 @@ elif menu == "Konversi":
 elif menu == "Tentang":
     st.write("Aplikasi ini dibuat untuk praktikum kimia.")
 
-import pandas as pd
-
-st.write(1234)
-st.write(
-    pd.DataFrame(
-        {
-            "first column": [1, 2, 3, 4],
-            "second column": [10, 20, 30, 40],
-        }
-    )
-)
+#===========================================================================================
+st.title("MY CALCULATOR")
